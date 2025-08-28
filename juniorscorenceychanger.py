@@ -16,7 +16,7 @@ rates_per_usd = {
 
 CURRENCIES = list(rates_per_usd.keys())
 
-st.title("💱 juniors corencey changer")
+st.title("💱 juniors currency changer")
 
 # ---------- Sidebar controls ----------
 with st.sidebar:
@@ -81,3 +81,4 @@ st.markdown(
     unsafe_allow_html=True,
 
 )
+
