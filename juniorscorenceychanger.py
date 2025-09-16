@@ -16,7 +16,9 @@ rates_per_usd = {
 
 CURRENCIES = list(rates_per_usd.keys())
 
-st.title("💱 juniors currency changer")
+st.title("💱 smart currency changer")
+st.set_page_config(page_title="💱 smart currency changer", layout="centered")
+
 
 # ---------- Sidebar controls ----------
 with st.sidebar:
@@ -79,6 +81,4 @@ st.divider()
 st.markdown(
     "<span style='opacity:0.8;'>Tip: Use the Swap button in the sidebar to reverse the conversion direction.</span>",
     unsafe_allow_html=True,
-
 )
-
